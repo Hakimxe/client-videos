@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{client_name}} – AI Receptionist Demo</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      max-width: 600px;
+      margin: auto;
+      text-align: center;
+    }
+    video {
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    }
+  </style>
 </head>
 <body>
-  <h2>Hello {{client_name}}, here's your custom demo 👇</h2>
+  <h2>👋 Hello {{client_name}}, here’s your custom demo</h2>
   <video controls autoplay width="100%">
     <source src="{{video_url}}" type="video/mp4" />
     Your browser does not support the video tag.
